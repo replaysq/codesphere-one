@@ -1,4 +1,4 @@
-const UUID = process.env.UUID || '0004add9-5c68-8bab-870c-08cd5320df55';
+const UUID = process.env.UUID || '9d7760bc-e97e-489a-9700-857d0dcce8ed';
 const projectPageURL = process.env.URL || '';// 填写项目域名可开启自动访问保活,例如：https://www.google.com
 const intervalInMilliseconds = process.env.TIME || 2 * 60 * 1000;  // 自动访问间隔时间（2分钟）
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.abc.com';    // 哪吒3个变量不全不运行
